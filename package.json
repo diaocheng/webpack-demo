@@ -1,0 +1,24 @@
+{
+  "name": "flowchart",
+  "version": "0.0.1",
+  "description": "a flow chart library",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diaocheng/flowchart.git"
+  },
+  "keywords": [
+    "flowchart",
+    "chart",
+    "raphael"
+  ],
+  "author": "程刁",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diaocheng/flowchart/issues"
+  },
+  "homepage": "https://github.com/diaocheng/flowchart#readme"
+}
