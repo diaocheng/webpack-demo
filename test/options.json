@@ -1,0 +1,50 @@
+{
+    "line": {
+        "line": {
+            "stroke": "#666666",
+            "stroke-width": 2,
+            "arrow-end": "classic-wide-long"
+        },
+        "text": {
+            "fill": "#666666",
+            "font-size": 13,
+            "font-family": "Segoe UI, Microsoft YaHei, Helvetica, Arial, sans-serif"
+        }
+    },
+    "text": {
+        "fill": "#666666",
+        "font-size": 13,
+        "font-family": "Segoe UI, Microsoft YaHei, Helvetica, Arial, sans-serif"
+    },
+    "shape": {
+        "fill": "#ffffff",
+        "stroke": "#666666",
+        "fill-opacity": 0,
+        "stroke-width": 2
+    },
+    "start": {
+        "radius": 20
+    },
+    "end": {
+        "radius": 20
+    },
+    "operation": {
+        "radius": 5
+    },
+    "textPadding": 10,
+    "maxWidth": 80,
+    "autolayout": false,
+    "clickable": false,
+    "dblclickable": true,
+    "draggable": true,
+    "hoverable": true,
+    "spacing": {
+        "x": 80,
+        "y": 80
+    },
+    "paperPadding": {
+        "x": 30,
+        "y": 30
+    },
+    "symmetricallayout": true
+}

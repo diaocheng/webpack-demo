@@ -1,0 +1,115 @@
+export default [{
+    "id": 1,
+    "to": [{
+        id: 1,
+        from: 1,
+        to: 2,
+        type: 1,
+        text: '进入流程',
+        data: {}
+    }],
+    "type": "start",
+    "text": "开始",
+    "x": 433,
+    "y": 27,
+    "data": {}
+}, {
+    "id": 2,
+    "to": [
+        {
+            id: 2,
+            from: 2,
+            to: 3,
+            type: 1,
+            text: '同时开始',
+            data: {}
+        }, {
+            id: 3,
+            from: 2,
+            to: 4,
+            type: 1,
+            text: '同时开始',
+            data: {}
+        }, {
+            id: 4,
+            from: 2,
+            to: 5,
+            type: 1,
+            text: '同时开始',
+            data: {}
+        }
+    ],
+    "type": "operation",
+    "text": "几个操作同时进行的情况",
+    "x": 407,
+    "y": 110,
+    "data": {}
+}, {
+    "id": 3,
+    "to": [{
+        id: 5,
+        from: 3,
+        to: 6,
+        type: 1,
+        text: '完成',
+        data: {}
+    }],
+    "x": 391,
+    "y": 203,
+    "type": "operation",
+    "text": "主要工序",
+    "data": {}
+}, {
+    "id": 4,
+    "to": [{
+        id: 6,
+        from: 4,
+        to: 6,
+        type: 1,
+        text: '完成',
+        data: {}
+    }],
+    "type": "operation",
+    "text": "第一个工序",
+    "x": 171,
+    "y": 191,
+    "data": {}
+}, {
+    "id": 5,
+    "to": [{
+        id: 7,
+        from: 5,
+        to: 6,
+        type: 1,
+        text: '完成',
+        data: {}
+    }],
+    "type": "operation",
+    "text": "第二个工序",
+    "x": 569,
+    "y": 186,
+    "data": {}
+}, {
+    "id": 6,
+    "to": [{
+        id: 8,
+        from: 6,
+        to: 7,
+        type: 1,
+        text: '是',
+        data: {}
+    }],
+    "type": "condition",
+    "text": "以上工作是否都已完成",
+    "x": 428,
+    "y": 563,
+    "data": {}
+}, {
+    "id": 7,
+    "to": [],
+    "type": "end",
+    "text": "结束",
+    "x": 426,
+    "y": 670,
+    "data": {}
+}]
