@@ -1,7 +1,7 @@
 {
-  "name": "flowchart",
+  "name": "webpack-demo",
   "version": "0.0.1",
-  "description": "a flow chart library",
+  "description": "webpack-demo",
   "main": "index.js",
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -9,19 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diaocheng/flowchart.git"
+    "url": "git+https://github.com/diaocheng/webpack-demo.git"
   },
   "keywords": [
     "flowchart",
     "chart",
-    "raphael"
+    "raphael",
+    "webpack-demo",
+    "webpack"
   ],
   "author": "程刁",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diaocheng/flowchart/issues"
+    "url": "https://github.com/diaocheng/webpack-demo/issues"
   },
-  "homepage": "https://github.com/diaocheng/flowchart#readme",
+  "homepage": "https://github.com/diaocheng/webpack-demo#readme",
   "dependencies": {
     "lodash": "^4.17.4",
     "raphael": "^2.2.7"
